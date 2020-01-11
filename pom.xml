@@ -8,5 +8,30 @@
     <artifactId>imageUtil</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.qding.framework</groupId>
+            <artifactId>framework-common</artifactId>
+            <version>0.0.21-SNAPSHOT</version>
+        </dependency>
+
+        <!--   http post请求 form-data参数格式     -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5.6</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
